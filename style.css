@@ -3,21 +3,27 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color: #c4b0b0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    background-image: url('Barevná\ paleta\ 1.jfif'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    height: calc(230vh - 10px);
+    margin: auto;
 }
 
 
 nav {
-    background-color: #333;
+    background-color: #b3a394;
     padding: 10px;
     text-align: center;
 }
 
 nav a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 10px 20px;
     margin: 0 10px;
@@ -64,6 +70,7 @@ nav a:hover {
 
 .home-text {
     flex: 1;
+    margin-left: -20px;
 }
 
 .home-text h1 {
@@ -90,10 +97,10 @@ ul li {
 
 
 .footer {
-    background-color: #333;
+    background-color: #b3a394;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     width: 100%;
     margin-top: auto; 
 }
@@ -128,3 +135,31 @@ ul li {
     .html { 
 scroll-behavior: smooth;
     }
+.kontakty {
+    margin-top: 300px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.projekty {
+    margin-top: 150px;
+}
+.links {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.links:hover {
+    color: rgb(59, 61, 60);
+}
+.ProjektyNadpis {
+    margin-left: 100px;
+}
+.ProjektyText {
+    margin-left: 100px;
+    text-decoration: none;
+}
+.ProjektyText:hover {
+    color: rgb(59, 61, 60);
+}
+.DomovskaStrankaText {
+    margin-right: 100px;
+}
